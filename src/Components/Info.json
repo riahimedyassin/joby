@@ -1,0 +1,14 @@
+{
+   "dataOne" : {
+        "title" : "Fast Search",
+        "des" : "We provide a Fast REST API to get your results as fast as possible"
+   },
+   "dataTwo" : {
+        "title" : "Best Results",
+        "des" : "Our filters helps you pick your next Job efficiently and quickly"
+   },
+   "dataThree" : {
+        "title" : "Secure",
+        "des" : "We support multiple payment method for you next subscription"
+   }
+}

@@ -1,0 +1,16 @@
+.sixthSection {
+    color: var(--mainBlue);
+    background-color: #eee;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+.sixthSection h1 {
+    margin-top: 128px;
+    margin-bottom: 8px;
+}
+.sixthSection img {
+    position: absolute;
+    right: -40%;
+    top: -10px;
+}

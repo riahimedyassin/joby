@@ -1,0 +1,22 @@
+nav {
+    box-shadow: 0 4px 20px 2px rgb(0, 0, 0); 
+    padding: 5px;
+    height: 50px;
+    z-index: 200;
+}
+.brand {
+    width: 100px;
+    height: 25px;
+    margin-left: 0px;
+}
+nav ul {
+    margin-left: 20px;
+}
+nav ul li{
+    list-style-type: none;
+    margin-left:43px;
+    color:var(--mainBlue);
+}
+nav .btnMain {
+    margin-left: 144px;
+}

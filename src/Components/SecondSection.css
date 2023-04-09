@@ -1,0 +1,11 @@
+.secondSection {
+    min-height: 400px;
+    margin-top: 64px;
+    text-align: center;
+}
+.secondSection h1 {
+    margin-top: 36px;
+}
+.paymentHolder {
+    width: 75%;
+}

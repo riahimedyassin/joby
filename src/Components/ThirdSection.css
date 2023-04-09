@@ -1,0 +1,9 @@
+.thirdSection {
+    margin-top: 128px;
+    color: white;
+    height: 500px;
+    background-color: var(--mainBlue);
+}
+.thirdSection h1 {
+    margin-top: 64px;
+}

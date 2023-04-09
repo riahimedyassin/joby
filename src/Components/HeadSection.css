@@ -1,0 +1,14 @@
+.headerSection {
+    min-height: 450px;
+    background-color: #F5F5F5;
+    font-size: 1.4rem;
+    word-wrap: break-word;
+    background-image: url(../Imgs/Dotted.png);
+    text-align: center;
+}
+.headerSection h1 {
+    color: var(--gray) ;
+}
+.headerSection h1 span {
+    color: var(--mainBlue);
+}

@@ -1,0 +1,20 @@
+.infoComp {
+    width: 300px;
+    text-align: center;
+    margin-top:  64px;
+}
+.infoComp p {
+    font-size: 0.75rem;
+}
+.infoComp h2 {
+    margin: 8px 0;
+}
+.infoImg {
+    border: 4px dotted white;
+    padding: 20px;
+    border-radius: 50%;
+}
+.infoImg img {
+    width: 80px;
+    height:80px;
+}

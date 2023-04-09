@@ -1,0 +1,13 @@
+.PayButton {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    outline: none;
+    font-weight: bold;
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 50px 2px rgba(0, 0, 0, 0.493);
+    outline: none;
+}

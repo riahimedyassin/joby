@@ -1,0 +1,17 @@
+.paymentCard {
+    width: 250px;
+    min-height: 350px;
+    background-color: #eee;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.359);
+    margin-top: 60px;
+    position: relative;
+}
+.paymentCard hr {
+    margin: 16px;
+}
+.paymentCard .feature {
+    margin-top: 16px;
+    margin-left: -16px;
+}
