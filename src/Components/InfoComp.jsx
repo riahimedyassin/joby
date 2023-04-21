@@ -4,7 +4,7 @@ function InfoComp({title,img,des}) {
   return (
     <div className='d-flex dc jcc align-center infoComp'>
       <div className="infoImg">
-        <img src={img} alt="" />
+        <img src={img} alt="not-found" />
       </div>
       <h2>{title}</h2>
       <p>{des}</p>

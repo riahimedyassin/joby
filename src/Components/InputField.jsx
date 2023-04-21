@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './InputField.css'
 import Button from './Button'
-function InputField({placeholder,btnName}) {
+import { Link } from 'react-router-dom'
+function InputField({placeholder,btnName}) {  
   return (
     <div className='inputField'>
-      <input type="text" name="" id="" placeholder={placeholder}/>
-      <Button name={btnName} />
+      <Link to="/findjob">
+        <button className='searchButton' name="Search">Search</button>
+      </Link>
+      
     </div>
   )
 }

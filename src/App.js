@@ -1,19 +1,23 @@
+import { BrowserRouter, Routes , Route} from 'react-router-dom';
 import './App.css';
-import FourthSection from './Components/FourthSection';
-import HeadSection from './Components/HeadSection';
-import NavComp from './Components/NavComp'
-import SecondSection from './Components/SecondSection';
-import SixthSection from './Components/SixthSection';
-import ThirdSection from './Components/ThirdSection';
+import Welcome from './pages/Welcome';
+import Login from './pages/Login'
+import Error from './pages/Error';
+import Found from './pages/Found';
 function App() {
   return (
-    <div className="App">
-      <NavComp />
-      <HeadSection />
-      <SecondSection />
-      <ThirdSection />
-      <SixthSection />
+    <div className='App'>
+      <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Welcome />}></Route>
+      <Route path="login" element={<Login />}></Route>
+      <Route path="findjob" element={<Found />}></Route>
+      <Route path="*" element={<Error />}></Route>
+    </Routes>
+    </BrowserRouter>
     </div>
+    
+    
   );
 }
 
