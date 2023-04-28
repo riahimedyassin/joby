@@ -9,13 +9,15 @@ function CollapsibleExample() {
         <img src={logo} alt="" className='brand'/>
       </div>
       <ul className='d-flex align-center'>
-        <li>Home</li>
-        <li>Our Plans</li>
-        <li>About us</li>
-        <li>Company</li>
-        <Link to="/login">
-        <Button name="Login"></Button>
+        <Link to="/">
+          <li>Home</li>
         </Link>
+          <li>Our Plans</li>
+        <li>About us</li>
+        <Link to="">
+          <li>Company</li>
+        </Link>
+        {localStorage.getItem("isAuth") ? <button className='btnMain'>Profile</button> : <Link to="/login"><Button name="Login"></Button></Link>}
         
       </ul>
     </nav>

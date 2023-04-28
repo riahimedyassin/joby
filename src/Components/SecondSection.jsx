@@ -5,10 +5,10 @@ import PaymentData from '../Data/PaymentInfo'
 function SecondSection() {
   const [BgYellow,setBgYellow] = useState("var(--yellow)")
   const showPayedPlans=PaymentData.map(el=> {
-    return <Payment title={el.title} price={el.price} features={el.features}bgColor="white"/>
+    return <Payment title={el.title} price={el.price} features={el.features}bgColor="white" key={el.price}/>
   })
   return (
-    <div className='secondSection d-flex align-center  dc'>
+    <div className='secondSection d-flex align-center  dc' id='payment'>
         <h1>Accelerate Your Job Search with <br/>JOBY Payed Plans</h1>
         <div className="paymentHolder d-flex jca">
             {showPayedPlans}

@@ -10,15 +10,17 @@ function Found() {
       .then((data) => setJobs(data.results) )
       .catch((error) => console.log(error));
   }
-
+  
     const listeJob=jobs.map((job) => (
-      <div key={job.id} className="fetchRes">
+      <a href={job.refs.landing_page} className="fetchRes">
+      <div key={job.id} >
         <h2>{job.name}</h2>
         <h4>Company :{job.company.name}</h4>
         <p>Level : {job.levels[0].name} </p>
       </div>
+      </a>
     ))
-
+  fetchData(page)
   return (
     <div className="d-flex align-center jcc dc fetchOverall">
       <NavComp ></NavComp>
@@ -26,6 +28,7 @@ function Found() {
       <div className="fetchContainer">
           {listeJob}
       </div>
+      
     </div>
   );
 }

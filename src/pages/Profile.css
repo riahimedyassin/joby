@@ -1,0 +1,12 @@
+.profile {
+    margin-top: 80px;
+}
+.logoutButton {
+    width: 100px;
+    height: 40px;
+    background-color: var(--mainBlue);
+    border-radius: 4px;
+    color: white;
+    border: none;
+    margin: 8px;
+}
